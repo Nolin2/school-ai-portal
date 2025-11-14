@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand: #1e40af; /* indigo-800 */
+  --accent: #06b6d4; /* cyan-500 */
+}
+
+body {
+  @apply bg-slate-50 text-slate-800;
+}
